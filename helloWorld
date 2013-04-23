@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>HelloWorld</title>
+<link href="file:///C|/Users/j.hall/Documents/helloWorldSite/jquery-mobile/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="file:///C|/Users/j.hall/Documents/helloWorldSite/jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="file:///C|/Users/j.hall/Documents/helloWorldSite/jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div class="slidedown" id="page" data-role="page">
+  <div data-role="header">
+		<h1>Hello World!</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#page1">TSD website link</a></li>
+            <li><a href="#page2">Hello World!</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page1">
+	<div data-role="header">
+		<h1>Trinity St. David Home Page</h1>
+	</div>
+	<div data-role="footer">
+<li><a href="#link1" title="Trinity St. David Website">http://www.trinitysaintdavid.ac.uk/en/</a></li>
+  </div>
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header">
+		<h1>Hello World Example</h1>
+	</div>
+	<div data-role="content">	
+		Hello world		
+	</div>
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+		<h1>Page Three</h1>
+	</div>
+	<div data-role="content">	
+			
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+
+</body>
+</html>
